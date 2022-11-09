@@ -9,30 +9,28 @@ public class QuestionOne {
         //Scanner object
         Scanner input = new Scanner(System.in);
 
-        String sirName, oddOReven;
-        int age, sirNameLength;
+        String name;
+        String numbertype;
+        int age; 
+        int nameLength;
         
             //get inputs
             System.out.println("Enter your sir name :");
-            sirName = input.nextLine();
-
+            name = input.nextLine();
             System.out.println("Enter your age :");
             age = input.nextInt(); 
 
-            //calculating the number of letters in sir name
-            sirNameLength = sirName.length();
-
+            nameLength = name.length(); //getting number of letters in sir name.
 
             //if age is divisible by 2, set oddOReven to even.
             //else set oddOReven to odd.
             if ((age % 2) == 0) {
-                oddOReven = "even";
+                numbertype = "even";
             } else {
-                oddOReven = "odd";
+                numbertype = "odd";
             }
 
-            //display Output
-            System.out.println("\nThe number of characters in your sir name is : " + sirNameLength);
-            System.out.println("Your current age is an " + oddOReven + " number");
+            System.out.println("\nThe number of characters in your sir name is : " + nameLength);
+            System.out.println("Your current age is an " + numbertype + " number");
     }
 }

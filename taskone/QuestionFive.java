@@ -1,4 +1,4 @@
-package Faith.taskone;
+package taskone;
 
 import java.util.Scanner;
 

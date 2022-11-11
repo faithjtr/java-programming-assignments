@@ -10,7 +10,7 @@ public class QuestionThree {
         // Scanner object
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Test divisibility by 0 - 9 :");
+        System.out.println("Test divisibility for any number by 0 - 9 :");
         int data;
         data = input.nextInt();//user input
 
